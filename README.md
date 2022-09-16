@@ -2,6 +2,9 @@ The Code Output Looks Like the Image below:
 
 ![image](https://user-images.githubusercontent.com/65664262/190566275-f2c81d80-aff1-4579-81bf-0615ff37ce48.png)
 
+You will get Dynamic Index no based on content by using For Loop.
+When you click on specific index number, It Actually Take a Page number and divide that data by slice with starting and ending Id of data coming from API
+API Link we have Used : https://jsonplaceholder.typicode.com/posts
 
 
 # Getting Started with Create React App
