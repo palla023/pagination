@@ -14,7 +14,7 @@ let pageNumbers = [1,2,3,4,5,6,7,8,9,10]; */}
 	}
 	return (
 		<div className='container text-center bg-secondary pt-2'>
-			{pageNumbers.map(page => <div className='pagination'><a className='pagination a ' onClick={()=> pageHandler(page)}>{page}</a></div>)}
+			{pageNumbers.map(page => <div className='pagination' style={{cursor:'pointer'}}><a className='pagination a ' onClick={()=> pageHandler(page)}>{page}</a></div>)}
 		</div>
 	)
 }
